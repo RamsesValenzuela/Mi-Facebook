@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/gris"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:text="Numero de celular o correo electronico "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris"
+        android:shadowColor="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="8dp"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:text="Contraseña"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris"
+        android:password="true"
+        android:shadowColor="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="8dp"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Iniciar sesión"
+        android:textSize="14sp"
+        android:backgroundTint="@color/azul"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:gravity="left"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="@color/azul"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="o"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="Crear cuenta Nueva "
+        android:backgroundTint="@color/verde"
+        android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Español"
+            android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="English(US)"
+        android:textColor="@color/azul" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Francais (France)"
+        android:textColor="@color/azul" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Portugues (Brasil)"
+        android:textColor="@color/azul" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Italiano"
+        android:textColor="@color/azul" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Más idiomas"
+        android:textColor="@color/azul" />
+
+
+
+
+
+</LinearLayout>
